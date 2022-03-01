@@ -7,6 +7,7 @@ body {
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td, th {
@@ -14,9 +15,31 @@ td, th {
     padding: 10px;
 }
 
+caption {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
 thead, tfoot {
     background-color: darkred;
     color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: darkred;
+}
+
+tbody > tr:nth-child(odd) { /* 2n-1 */
+    background-color: white;
+}
+
+tbody > tr:nth-child(even) { /* 2n */
+    background-color: lightgray;
 }
 
 td.num {
