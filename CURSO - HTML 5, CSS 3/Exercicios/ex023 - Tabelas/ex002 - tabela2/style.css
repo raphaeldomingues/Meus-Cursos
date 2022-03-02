@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 8px;
+    border-radius: 8px 8px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+    background-color: darkred;
+}
+
+div {
+    border: 1px solid black;
+    width: 400px;
+    background-color: gray;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.479);
+}
+
+table {
+    border: 1px;
+    width: 400px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
