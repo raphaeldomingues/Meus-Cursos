@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+div {
+    width: 500px;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+col.cnome {
+    background-color: lightsalmon;
+}
+
+col.cgrupo {
+    background-color: pink;
+}
